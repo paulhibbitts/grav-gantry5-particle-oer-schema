@@ -1,0 +1,32 @@
+name: OER Schema
+description: Add OER Scheme information to your Grav site.
+type: atom
+
+form:
+  fields:
+    oer_scheme_type:
+      type: select.selectize
+      label: OER Type
+      default: course
+      size: long
+      options:
+          course: 'Course'
+          topic: 'Topic'
+          learningcomponent: 'Learning Component'
+
+    oer_scheme_id:
+      type: input.text
+      label: OER ID
+      validate:
+          type: text
+
+    oer_scheme_name:
+      type: input.text
+      label: OER Name
+      validate:
+          type: text
+
+    infotext:
+      type: separator.note
+      class: none
+      content: '<br>Looking for more info about OER Schema?<br> Visit the <a href="http://oerschema.org/" target="_blank">http://oerschema.org/</a> site.<br><br>'

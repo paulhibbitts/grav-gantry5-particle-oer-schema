@@ -1,0 +1,14 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+{% pageblock body_top %}
+  <div resource="{{particle.oer_scheme_id}}" typeof="oer:{{particle.oer_scheme_type}}">
+  <meta property="oer:{{particle.oer_scheme_type}}Identifier" content="{{particle.oer_scheme_name}}">
+{% endpageblock %}
+
+{% pageblock body_bottom %}
+  </div>
+{% endpageblock %}
+
+{% endblock %}
