@@ -13,4 +13,4 @@ Particles are small, modular blocks with preset scripting that enable you to add
 
 1. Go to the `Page Settings` for your active Gantry theme.
 2. Create a new `Tag` with the `Key` = `Prefix` and `Value` =`oer: http://oerschema.org/`
-3. Press `Save Page Settings`
+3. Press the `Save Page Settings` button.
