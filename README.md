@@ -9,3 +9,8 @@ Particles are small, modular blocks with preset scripting that enable you to add
 3. If a `particles` folder already exists within the `custom` folder open it, otherwise create it.
 4. Upload `oer_schema.html.twig` and `oer_schema.yaml` files into the `/custom/particles` folder. For example, if you are using the Hydrogen theme copy the two particle files into `/user/themes/g5_hydrogen/custom/particles`.
 
+## Setting Your Site Body Tags
+
+1. Go to the `Page Settings` for your active Gantry theme.
+2. Create a new `Tag` with the `Key` = `Prefix` and `Value` =`oer: http://oerschema.org/`
+3. Press `Save Page Settings`
