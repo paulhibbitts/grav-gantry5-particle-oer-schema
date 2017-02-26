@@ -12,6 +12,5 @@ Particles are small, modular blocks with preset scripting that enable you to add
 ## Setting Your Site Body Tags
 
 1. Go to the `Page Settings` for your active Gantry theme.
-2. Create a new `Tag` with the `Key` = `Vocab` and `Value` =`http://oerschema.org`
-3. Create a second new `Tag` with the `Key` = `Prefix` and `Value` =`oer: http://oerschema.org/`
-4. Press the `Save Page Settings` button.
+2. Create a new `Tag` with the `Key` = `Prefix` and `Value` =`oer: http://oerschema.org/`
+3. Press the `Save Page Settings` button.
