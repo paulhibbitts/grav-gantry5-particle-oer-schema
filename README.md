@@ -14,3 +14,8 @@ Particles are small, modular blocks with preset scripting that enable you to add
 1. Go to the `Page Settings` for your active Gantry theme.
 2. Create a new `Tag` with the `Key` = `Prefix` and `Value` =`oer: http://oerschema.org/`
 3. Press the `Save Page Settings` button.
+
+## Particle Options
+!['OER Schema' options](https://github.com/paulhibbitts/github-repo-images/blob/master/oer-schema-options.png?raw=true)
+
+This Particle is also included in the [Grav OER Content Space Skeleton](https://github.com/hibbitts-design/grav-skeleton-oer-content-space).
