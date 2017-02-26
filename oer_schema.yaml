@@ -4,15 +4,21 @@ type: atom
 
 form:
   fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable OER Schema atom.
+      default: true
+
     oer_scheme_type:
       type: select.selectize
       label: OER Type
       default: course
       size: long
       options:
-          course: 'Course'
-          topic: 'Topic'
-          learningcomponent: 'Learning Component'
+          Course: 'Course'
+          Topic: 'Topic'
+          learningComponent: 'Learning Component'
 
     oer_scheme_id:
       type: input.text
